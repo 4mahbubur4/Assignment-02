@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-02</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+    <header>
+        <nav class="flex justify-between items-center ml-[6%] mr-[6%]">
+
+            <div>
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="flex justify-evenly items-center">
+                <div class="hidden sm:block ">
+                    <ul class="flex gap-20">
+                        <li class="text-[rgba(37,36,50,1)] font-bold"><a href="#">Home</a></li>
+                        <li class="text-[rgba(137,135,161,1)]"><a href="#">Shop</a></li>
+                        <li class="text-[rgba(137,135,161,1)]"><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ol class="flex gap-2 pl-4 ">
+                        <li class="text-[#33323f]"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li class="text-[rgba(137, 135, 161, 1)]"><a href="#">Cart($56)</a></li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+        <section class="md:flex md:flex-row-reverse md:p-[5%] md:justify-center items-center">
+            <div class="md:flex-1">
+                <img class="w-full md:w-full" src="assets/hero-flower.png" alt="">
+            </div>
+            <div class="p-[16px] md:flex-1">
+                <h2 class="text-2xl font-bold md:text-6xl">ALWAYS <span class="text-[rgba(233,90,8,1)]">
+                        FRESH <br>FLOWERS
+                    </span> </h2>
+                <p class="md:text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                    classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any
+                    occasion. </p>
+            </div>
+        </section>
+    </header>
     
 </body>
 </html>
